@@ -295,7 +295,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        top: 58%;
+        top: 62%;
         left: 50%;
         transform: translate(-50%, -50%);
         background: linear-gradient(to right, rgb(9, 109, 224) 70%, white 20%);
