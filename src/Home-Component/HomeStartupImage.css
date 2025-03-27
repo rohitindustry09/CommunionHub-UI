@@ -1,0 +1,46 @@
+.image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*resize: both;*/
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px black;
+    transition: all 0.8s;
+}
+.image:hover {
+    transform: scale(1.3);
+}
+.image h4 {
+    position: fixed;
+    color: aliceblue;
+    z-index: 10;
+    text-shadow: 2px -2px 10px black;
+    transition: all 0.5s;
+}
+.image .show-title {
+    opacity: 1;
+}
+.image .dont-show-title {
+    opacity: 0;
+}
+
+.image img {
+    height: 100%;
+}
+
+.Innovate img {
+    transform: translate(-30%, 0);
+}
+
+
+.startup-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 600px) {
+    .startup-image {
+      width: 90%;
+    }
+  }
+  

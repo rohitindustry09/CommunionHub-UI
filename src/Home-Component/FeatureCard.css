@@ -1,0 +1,42 @@
+.card-featured {
+    background: #363b3a !important;
+    transition: all 0.5s;
+}
+.card-featured:hover {
+    transform: scale(1.05);
+}
+.right-arrow {
+    transition: all 0.2s;
+    display: inline-block;
+}
+.card-featured Button {
+    background: #242424;
+    outline: none;
+    border: none;
+}
+.card-featured Button:hover {
+    background: #242424;
+    box-shadow: -3px -3px 10px rgb(172, 171, 171);
+}
+Button:hover .right-arrow {
+    transform: rotate(90deg);
+}
+
+.feature-card {
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 600px) {
+    .feature-card {
+      width: 100%;
+      padding: 15px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .feature-card {
+      width: 80%;
+    }
+  }
