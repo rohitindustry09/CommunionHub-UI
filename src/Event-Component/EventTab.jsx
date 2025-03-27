@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import { useParams } from "react-router-dom";
+import EventList from "./EventList";
 
 const EventTab = () => {
-  return (
-    <div>EventTab</div>
-  )
-}
+  const { action } = useParams();
 
-export default EventTab
+  return (
+    <div>
+      <h1 className="text-center">{action === "create" ? "Create Event" : "Events"}</h1>
+      <EventList action={action} />
+    </div>
+  );
+};
+
+export default EventTab;

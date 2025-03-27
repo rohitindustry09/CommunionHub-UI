@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       { path: '/', element: <HomeTab /> },
-      { path: '/events', element: <EventTab /> },
+      { path: '/events/:action', element: <EventTab /> },
     ]
   }
 ])
